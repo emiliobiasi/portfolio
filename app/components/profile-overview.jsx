@@ -1,5 +1,5 @@
 "use client";
-import Profilepic from "../../public/patrickBravo.jpeg";
+import Profilepic from "../../public/emiliobiasi.jpg";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa6";
 import { motion } from "framer-motion";
@@ -24,7 +24,7 @@ export const ProfileOverview = () => {
         <h1 className="text-2xl font-bold">{PROFILE.name}</h1>
         <p className="tracking-tighter">{PROFILE.city}</p>
         <a
-          href="/patrick.pdf"
+          href="/curriculo-profissional-en.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download

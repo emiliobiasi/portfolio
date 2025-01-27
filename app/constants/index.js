@@ -9,8 +9,8 @@ import project3 from "../../public/project3.jpeg";
 import project4 from "../../public/project4.jpeg";
 
 export const PROFILE = {
-  name: "Patrick Bravo",
-  city: "Houston, Texas 🇺🇸",
+  name: "Emílio Biasi",
+  city: "Campinas, São Paulo 🇧🇷",
   greet: "Nice to Meet you!",
 };
 
