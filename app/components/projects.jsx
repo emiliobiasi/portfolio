@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { PROJECTS } from "@/app/constants";
+import { PROJECTS } from "../constants";
 
 const Projects = () => {
   return (

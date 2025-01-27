@@ -1,10 +1,9 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { IoHome } from "react-icons/io5";
+import { MDXRemote } from "next-mdx-remote/rsc";
 import Link from "next/link";
-import { serialize } from "next-mdx-remote/serialize";
-import MdxRenderer from "./mdx-render";
+import { IoHome } from "react-icons/io5";
 
 const postsDirectory = path.join(process.cwd(), "posts");
 
@@ -15,16 +14,11 @@ export async function generateStaticParams() {
   }));
 }
 
-export const dynamicParams = false;
-
-export default async function Page(props) {
-  const params = await props.params;
-  const { slug } = params;
+export default async function Page({ params }) {
+  const { slug } = await params;
   const fullPath = path.join(postsDirectory, `${slug}.mdx`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
-
   const { data, content } = matter(fileContents);
-  const mdxSource = await serialize(content);
 
   return (
     <>
@@ -34,8 +28,7 @@ export default async function Page(props) {
         </button>
       </Link>
       <div className="my-20 px-2 mx-auto prose prose-headings:text-slate-400 prose-p:text-slate-300">
-        <h1>{data.title}</h1>
-        <MdxRenderer mdxSource={mdxSource} />
+        <MDXRemote source={content} />
       </div>
     </>
   );

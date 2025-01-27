@@ -1,9 +1,9 @@
 "use client";
-import Profilepic from "@/public/patrickBravo.jpeg";
+import Profilepic from "../../public/patrickBravo.jpeg";
 import Image from "next/image";
-import { PROFILE } from "@/app/constants";
 import { FaDownload } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import { PROFILE } from "../constants";
 
 export const ProfileOverview = () => {
   return (

@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const tailwindConfig = {
+export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,5 +15,3 @@ const tailwindConfig = {
   },
   plugins: [require("@tailwindcss/typography")],
 };
-
-export default tailwindConfig;

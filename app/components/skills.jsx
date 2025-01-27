@@ -1,5 +1,5 @@
 import React from "react";
-import { SKILLS } from "@/app/constants";
+import { SKILLS } from "../constants";
 
 const Skills = () => {
   return (

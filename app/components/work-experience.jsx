@@ -1,5 +1,5 @@
 import React from "react";
-import { EXPERIENCES } from "@/app/constants";
+import { EXPERIENCES } from "../constants";
 import Image from "next/image";
 
 const WorkExperience = () => {
