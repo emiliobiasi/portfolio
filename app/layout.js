@@ -19,7 +19,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-slate-950">
+    <html
+      lang="en"
+      className="bg-slate-950 js-focus-visible"
+      data-js-focus-visible=""
+    >
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
