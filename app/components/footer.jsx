@@ -27,7 +27,7 @@ const Footer = () => {
         </a>
       </div>
       <p className="mt-8 text-center text-sm tracking-wide text-slate-700">
-        &copy;compileTab. All rights reserved.
+        &copy;emiliobiasi. All rights reserved.
       </p>
     </div>
   );
