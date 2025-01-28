@@ -25,24 +25,24 @@ export const PROFILE = {
 
 export const PROJECTS = [
   {
-    name: "SocioClub",
-    image: socioclub,
-    url: "https://github.com/emiliobiasi/socioclubmobile",
-  },
-  {
     name: "ProjectInBio",
     image: projectinbio,
     url: "https://github.com/emiliobiasi/project-in-bio",
   },
   {
-    name: "Piva Seguros",
-    image: pivaseguros,
-    url: "https://github.com/emiliobiasi/pivaseguros",
+    name: "SocioClub",
+    image: socioclub,
+    url: "https://github.com/emiliobiasi/socioclubmobile",
   },
   {
     name: "VacuumCleaner",
     image: vacuumcleaner,
     url: "https://github.com/emiliobiasi/VacuumCleaner",
+  },
+  {
+    name: "Piva Seguros",
+    image: pivaseguros,
+    url: "https://github.com/emiliobiasi/pivaseguros",
   },
 ];
 

@@ -1,5 +1,5 @@
 "use client";
-import Profilepic from "../../public/emiliobiasi.jpg";
+import Profilepic from "../../public/emiliobiasi2.jpg";
 import Image from "next/image";
 import { FaDownload } from "react-icons/fa6";
 import { motion } from "framer-motion";
