@@ -8,6 +8,15 @@ import project2 from "../../public/project2.jpeg";
 import project3 from "../../public/project3.jpeg";
 import project4 from "../../public/project4.jpeg";
 
+import socioclub from "../../public/socioclub.png";
+import pivaseguros from "../../public/piva-seguros.png";
+import projectinbio from "../../public/projecinbio.png";
+import vacuumcleaner from "../../public/vacuumcleaner.png";
+
+import yourclub from "../../public/yourclub-logo.png";
+import dpaschoal from "../../public/dpaschoal.png";
+import pivaseguroslogo from "../../public/pivaseguros-logo.png";
+
 export const PROFILE = {
   name: "Emílio Biasi",
   city: "Campinas, São Paulo 🇧🇷",
@@ -16,66 +25,66 @@ export const PROFILE = {
 
 export const PROJECTS = [
   {
-    name: "Project 1",
-    image: project1,
+    name: "SocioClub",
+    image: socioclub,
     url: "https://github.com",
   },
   {
-    name: "Project 2",
-    image: project2,
-    url: "https://github.com",
+    name: "ProjectInBio",
+    image: projectinbio,
+    url: "https://github.com/emiliobiasi/project-in-bio",
   },
   {
-    name: "Project 3",
-    image: project3,
-    url: "https://github.com",
+    name: "Piva Seguros",
+    image: pivaseguros,
+    url: "https://github.com/emiliobiasi/pivaseguros",
   },
   {
-    name: "Project 4",
-    image: project4,
-    url: "https://github.com",
+    name: "VacuumCleaner",
+    image: vacuumcleaner,
+    url: "https://github.com/emiliobiasi/VacuumCleaner",
   },
 ];
 
 export const SKILLS = [
-  "React, Angular, Vue.js",
-  "Node.js, Express, Django",
-  "PostgreSQL, MySQL, MongoDB, and Firebase",
-  "RESTful and GraphQL APIs",
-  "AWS, Azure, and Google Cloud",
+  "Python, Java, TypeScript, JavaScript",
+  "Next.js, React, React Native, Tailwind CSS",
+  "SQL (PostgreSQL), NoSQL (MongoDB), Firebase",
+  "Power BI, Web Scraping, Web Design (Figma)",
+  "POO, Stripe API, PagBank API",
+  "Office 365, C++, Kotlin",
 ];
 
 export const EXPERIENCES = [
   {
-    img: company1,
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    img: yourclub,
+    year: "01/2024 - Present",
+    role: "Full-Stack Developer",
+    company: "YourClub.io",
+    description: `As a Full-Stack Developer at YourClub.io, I manage databases with Firebase, develop web and mobile interfaces using React, Next.js, and React Native, and implement backend solutions in JavaScript, focusing on scalability and efficiency. I also perform payment integrations via APIs (PagSeguro and Stripe), optimizing transactions and user experience.`,
+    technologies: [
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "React Native",
+      "Firebase",
+    ],
   },
   {
-    img: company2,
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    img: pivaseguroslogo,
+    year: "06/2024 - Present",
+    role: "Full-Stack Developer, Tech Lead, and Project Manager",
+    company: "Freelancer (Piva Seguros)",
+    description: `Currently developing an authenticated control panel focused on form control and management. I handle the complete setup of the application, with a frontend in TypeScript, React, and Tailwind, a backend in JavaScript, and database modeling in SQLite.`,
+    technologies: ["TypeScript", "Next.js", "Tailwind", "SQLite", "Firebase"],
   },
   {
-    img: company3,
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    img: company4,
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    img: dpaschoal,
+    year: "01/2023 - 12/2023",
+    role: "Full-Stack Developer",
+    company: "DPaschoal",
+    description: `Participated in the development of a course creation platform for employee training at DPaschoal, where I learned and applied knowledge in web development and project management. Worked with technologies like React, TypeScript, Node, MySQL, and Azure, contributing to the creation of a robust and efficient solution.`,
+    technologies: ["React", "TypeScript", "Node", "MySQL", "Azure"],
   },
 ];

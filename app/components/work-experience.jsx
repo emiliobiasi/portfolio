@@ -28,14 +28,16 @@ const WorkExperience = () => {
               <h6 className="font-semibold">{experience.role}</h6>
               <span className="text-sm">{experience.company}</span>
               <p className="my-4">{experience.description}</p>
-              {experience.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 mt-4 rounded-full border border-slate-400 px-2 py-1 font-medium text-slate-400"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap gap-2 mt-4">
+                {experience.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="rounded-full border border-slate-400 px-2 py-1 font-medium text-slate-400"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         ))}
