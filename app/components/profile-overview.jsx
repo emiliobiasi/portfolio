@@ -46,16 +46,16 @@ export const ProfileOverview = () => {
           ))}
         </p>
         <p className="mb-10 max-w-2xl p-1 text-center text-xl tracking-tight text-slate-400 lg:text-3xl">
-          I am a passionate{" "}
+          I am a dedicated{" "}
           <span className="border-b font-medium text-slate-200">
             Full Stack Developer
           </span>{" "}
-          with a knack for creating seamless, user-friendly web applications.
-          Specialize in both{" "}
+          with a talent for building seamless, scalable, and user-focused
+          applications. I excel in both{" "}
           <span className="font-medium text-slate-200">front-end</span> and{" "}
           <span className="font-medium text-slate-200">back-end</span>{" "}
-          development, ensuring a coehesive and efficient user experience from
-          start to finish.
+          development, delivering cohesive solutions that blend functionality
+          and great user experiences.
         </p>
       </motion.div>
     </div>

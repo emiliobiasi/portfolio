@@ -27,7 +27,7 @@ export const PROJECTS = [
   {
     name: "SocioClub",
     image: socioclub,
-    url: "https://github.com",
+    url: "https://github.com/emiliobiasi/socioclubmobile",
   },
   {
     name: "ProjectInBio",
