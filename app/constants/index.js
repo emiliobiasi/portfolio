@@ -52,7 +52,7 @@ export const SKILLS = [
   "SQL (PostgreSQL), NoSQL (MongoDB), Firebase",
   "Power BI, Web Scraping, Web Design (Figma)",
   "POO, Stripe API, PagBank API",
-  "Office 365, C++, Kotlin",
+  "BigQuery, C++, Kotlin",
 ];
 
 export const EXPERIENCES = [

@@ -1,15 +1,15 @@
-import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
 
 const Footer = () => {
   return (
     <div className="mb-8 mt-20">
       <div className="flex items-center justify-center gap-8">
         <a
-          href="https://x.com/emilio_biasi"
+          href="https://www.instagram.com/emilio_biasi/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaXTwitter fontSize={25} className="opacity-50 hover:opacity-80" />
+          <FaInstagram fontSize={25} className="opacity-50 hover:opacity-80" />
         </a>
         <a
           href="https://www.github.com/emiliobiasi"

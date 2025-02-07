@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="container mx-auto">
-          <div className="leading-relaxed text-slate-200 antialiased selection:bg-teal-300 selection:text-teal-900">
-            <div className="z-[-10] fixed inset-0 bg-[radial-gradient(circle_500px_at_50%_200px,#034a4391,transparent)]"></div>
+          <div className="leading-relaxed text-slate-200 antialiased selection:bg-indigo-300 selection:text-indigo-950">
+            <div className="z-[-10] fixed inset-0 bg-[radial-gradient(circle_500px_at_50%_200px,#4b556399,transparent)]"></div>
             {children}
             <Footer />
           </div>
