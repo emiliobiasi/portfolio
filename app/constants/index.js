@@ -46,13 +46,104 @@ export const PROJECTS = [
   },
 ];
 
+// export const SKILLS = [
+//   "Python, Java, TypeScript, JavaScript",
+//   "Next.js, React, React Native, Tailwind CSS",
+//   "SQL (PostgreSQL), NoSQL (MongoDB), Firebase",
+//   "Power BI, Web Scraping, Web Design (Figma)",
+//   "POO, Stripe API, PagBank API",
+//   "BigQuery, C++, Kotlin",
+// ];
+
 export const SKILLS = [
-  "Python, Java, TypeScript, JavaScript",
-  "Next.js, React, React Native, Tailwind CSS",
-  "SQL (PostgreSQL), NoSQL (MongoDB), Firebase",
-  "Power BI, Web Scraping, Web Design (Figma)",
-  "POO, Stripe API, PagBank API",
-  "BigQuery, C++, Kotlin",
+  // Linha 1: "Python, Java, TypeScript, JavaScript"
+  {
+    name: "Python",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/python.svg",
+  },
+  {
+    name: "Java",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/java.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/typescript.svg",
+  },
+  {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/javascript.svg",
+  },
+
+  // Linha 2: "Next.js, React, React Native, Tailwind CSS"
+  {
+    name: "Next.js",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/nextdotjs.svg",
+  },
+  {
+    name: "React",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/react.svg",
+  },
+  {
+    // React Native não tem ícone específico,
+    // então costumamos reutilizar o React ou algum outro placeholder
+    name: "React Native",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/react.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/tailwindcss.svg",
+  },
+
+  // Linha 3: "SQL (PostgreSQL), NoSQL (MongoDB), Firebase"
+  {
+    name: "PostgreSQL",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/postgresql.svg",
+  },
+  {
+    name: "MongoDB",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/mongodb.svg",
+  },
+  {
+    name: "Firebase",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/firebase.svg",
+  },
+
+  // Linha 4: "Power BI, Web Scraping, Web Design (Figma)"
+  {
+    name: "Power BI",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/powerbi.svg",
+  },
+  {
+    name: "Figma",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/figma.svg",
+  },
+
+  // Linha 5: "POO, Stripe API, PagBank API"
+  {
+    name: "Stripe API",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/stripe.svg",
+  },
+  {
+    // “PagBank” vem da mesma empresa de “PagSeguro”
+    // e existe em Simple Icons
+    name: "PagBank API",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/pagseguro.svg",
+  },
+
+  // Linha 6: "BigQuery, C++, Kotlin"
+  {
+    // Não há ícone "BigQuery" oficial, usei "googlecloud" como aproximação
+    name: "BigQuery",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/googlecloud.svg",
+  },
+  {
+    name: "C++",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/cplusplus.svg",
+  },
+  {
+    name: "Kotlin",
+    icon: "https://cdn.jsdelivr.net/npm/simple-icons@9.4.0/icons/kotlin.svg",
+  },
 ];
 
 export const EXPERIENCES = [

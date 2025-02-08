@@ -11,6 +11,16 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      // Adicione daqui para baixo:
+      keyframes: {
+        "infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 20s linear infinite",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography")],

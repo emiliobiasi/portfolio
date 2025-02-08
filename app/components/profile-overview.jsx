@@ -19,7 +19,7 @@ export const ProfileOverview = () => {
           width={110}
           height={110}
           alt="profilepic"
-          className="rounded-full border-2 border-slate-400"
+          className="rounded-full border-2 border-white"
         />
         <h1 className="text-2xl font-bold">{PROFILE.name}</h1>
         <p className="tracking-tighter">{PROFILE.city}</p>
